@@ -1,29 +1,26 @@
 # Galería Joelle — metamorfosis de una vela
 
-Ejercicio de React: una galería de posts con el tema de la metamorfosis de una vela.
+Galería de posts en React (CDN). Tema visual de la metamorfosis de una vela.
 
 ## Qué hace
 
-- Pinta una cuadrícula de tarjetas (imagen, título, descripción, contenido y fecha)
-- Los datos salen de `posts.js` (`postsData`)
-- Fondo e imágenes en la carpeta `img/`
+- Cuadrícula de tarjetas (imagen, título, descripción, contenido, fecha)
+- Datos en `posts.js`
+- Fondo e imágenes en `img/`
 
 ## Cómo probarlo
 
-Abre `index.html` en el navegador (carga React y Babel desde CDN, no hace falta build).
+Abre `index.html` (React + Babel + Tailwind por CDN).
 
 Demo: https://moussijoelle.github.io/galeria-joelle/
 
 ## Cómo lo construí
 
-- React 18 por CDN + Babel standalone para poder escribir JSX en el HTML
-- Componente `PostCard` y un `App` que hace `.map` de los posts
-- Tailwind por CDN para el diseño
-- Tipografía Cormorant Garamond de Google Fonts
+`PostCard` + `App` en el HTML, tipografía Cormorant Garamond, sin herramienta de build.
 
 ## Cómo verificarlo
 
-Sin tests automáticos. Abro la demo o el HTML y miro que salgan todas las tarjetas con imagen y texto.
+Reviso que salgan todas las tarjetas con imagen nítida y texto recortado donde toca.
 
 ---
 
